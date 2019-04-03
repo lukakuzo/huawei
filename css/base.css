@@ -1,0 +1,70 @@
+ blockquote,
+ body,
+ button,
+ dd,
+ dl,
+ dt,
+ fieldset,
+ form,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ hr,
+ input,
+ legend,
+ li,
+ ol,
+ p,
+ pre,
+ td,
+ textarea,
+ th,
+ ul,
+ span,
+ img {
+     /*清除默认的格式*/
+     margin: 0;
+     padding: 0;
+ }
+ 
+ ul,
+ ol {
+     list-style: none;
+ }
+ 
+ input,
+ button {
+     border: 0;
+     /*取消边框*/
+     outline: none;
+     /*取消轮廓*/
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .w {
+     width: 1000px;
+     margin: 0px auto;
+     /*background: red;*/
+ }
+ 
+ body,
+ button,
+ input,
+ select,
+ textarea {
+     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+ }
+ 
+ .fl {
+     float: left;
+ }
+ 
+ .fr {
+     float: right;
+ }
